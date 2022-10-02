@@ -28,7 +28,7 @@ export default class extends BaseCommand {
         const pack = context.split('|')
         const sticker = new Sticker(buffer, {
             categories,
-            pack: pack[1] ? pack[1].trim() : '🤍 ᴍᴀᴅᴇ ꜰᴏʀ ʏᴏᴜ',
+            pack: pack[1] ? pack[1].trim() : 'დ ᴍᴀᴅᴇ ꜰᴏʀ ʏᴏᴜ',
             author: pack[2] ? pack[2].trim() : `ᴍɪɴᴀꜱᴇ`,
             quality,
             type:
