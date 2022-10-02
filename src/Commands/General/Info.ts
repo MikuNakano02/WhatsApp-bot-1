@@ -6,7 +6,7 @@ import { BaseCommand, Command, Message } from '../../Structures'
     usage: 'information2006',
     category: 'general',
     cooldown: 10,
-    exp: 100
+    exp: 5000
 })
 export default class extends BaseCommand {
     public override execute = async ({ reply }: Message): Promise<void> => {
