@@ -1,7 +1,7 @@
 import { join } from 'path'
 import { BaseCommand, Command, Message } from '../../Structures'
 
-@Command('information2006', {
+@Command('Bugged', {
     description: "Displays bot's info",
     usage: 'information2006',
     category: 'general',
