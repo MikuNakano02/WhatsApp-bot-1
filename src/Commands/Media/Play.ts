@@ -5,7 +5,7 @@ import { IArgs } from '../../Types'
 
 @Command('play', {
     description: 'Plays a song of the given term from YouTube',
-    cooldown: 15,
+    cooldown: 20,
     exp: 35,
     category: 'media',
     usage: 'play [term]'
