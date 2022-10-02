@@ -3,7 +3,7 @@ import { BaseCommand, Command, Message } from '../../Structures'
 
 @Command('info', {
     description: "Displays bot's info",
-    usage: 'info',
+    usage: 'information2006',
     category: 'general',
     cooldown: 10,
     exp: 100
