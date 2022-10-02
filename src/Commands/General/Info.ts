@@ -1,12 +1,12 @@
 import { join } from 'path'
 import { BaseCommand, Command, Message } from '../../Structures'
 
-@Command('info', {
+@Command('information2006', {
     description: "Displays bot's info",
     usage: 'information2006',
     category: 'general',
-    cooldown: 10,
-    exp: 5000
+    cooldown: 5,
+    exp: 25000
 })
 export default class extends BaseCommand {
     public override execute = async ({ reply }: Message): Promise<void> => {
